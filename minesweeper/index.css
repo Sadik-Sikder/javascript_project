@@ -1,0 +1,42 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+    background-color: #4d945b;
+}
+.board {
+	display: inline-block;
+	margin: 20px;
+}
+#refresh{
+    margin-top: 4%;
+    margin-bottom: 4%;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: #333;
+}
+#refresh:hover{
+    background-color:bisque;
+}
+#refresh:active{
+	color: red;
+}
+.cell {
+	width: 40px;
+	height: 40px;
+	border: 1px solid #3c3535;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #eee;
+	color: #333;
+}
+.revealed {
+
+	background-color: hsl(0, 7%, 76%);
+	color: #000;
+}
+.mine {
+	background-color: #e60a27;
+}
